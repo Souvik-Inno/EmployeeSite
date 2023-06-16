@@ -1,0 +1,51 @@
+uuid: dc67dcc7-1dae-4606-a1b6-15c2a85b60c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.user_login
+    - field.field.block_content.user_login.field_create_new_account
+    - field.field.block_content.user_login.field_login_form
+    - field.field.block_content.user_login.field_request_new_password
+  module:
+    - link
+    - webform
+id: block_content.user_login.default
+targetEntityType: block_content
+bundle: user_login
+mode: default
+content:
+  field_create_new_account:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_login_form:
+    type: webform_entity_reference_entity_view
+    label: hidden
+    settings:
+      source_entity: true
+      lazy: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_request_new_password:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

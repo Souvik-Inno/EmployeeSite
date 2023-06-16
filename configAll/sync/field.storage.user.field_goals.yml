@@ -1,0 +1,19 @@
+uuid: 57503c57-05c7-44a6-971e-b68427cae2d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.field_goals
+field_name: field_goals
+entity_type: user
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

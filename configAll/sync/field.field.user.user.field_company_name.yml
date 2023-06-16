@@ -1,0 +1,20 @@
+uuid: d3266c5c-fe8a-4c45-b3f9-cc7fcb685578
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_company_name
+  module:
+    - user
+id: user.user.field_company_name
+field_name: field_company_name
+entity_type: user
+bundle: user
+label: 'Company Name'
+description: 'Company the employee works in.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

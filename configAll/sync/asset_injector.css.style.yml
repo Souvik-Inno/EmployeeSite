@@ -1,0 +1,15 @@
+uuid: df86c0e2-3178-47bd-b6e3-99816f2e0643
+langcode: en
+status: true
+dependencies: {  }
+id: style
+label: style
+code: |-
+  #quicktabs-project-tabs li {
+  	border: solid 1px;
+  }
+media: all
+preprocess: true
+conditions: {  }
+contexts: {  }
+conditions_require_all: true

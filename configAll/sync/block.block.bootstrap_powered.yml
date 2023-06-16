@@ -1,0 +1,22 @@
+uuid: 1e836521-4afa-45dc-8dba-88b7d00a64f8
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: bootstrap_powered
+theme: bootstrap
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Copyright @ 2022 Innoraft Solutions Pvt. Ltd.'
+  label_display: visible
+  provider: system
+visibility: {  }

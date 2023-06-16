@@ -1,0 +1,23 @@
+uuid: 078b83b9-fbfb-4507-9739-06776fe30d27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.project_for_tabs
+  module:
+    - text
+id: node.project_for_tabs.body
+field_name: body
+entity_type: node
+bundle: project_for_tabs
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

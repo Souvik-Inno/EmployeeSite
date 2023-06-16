@@ -1,0 +1,19 @@
+uuid: 6a9ba675-50a6-41c5-a2e0-a249260cce94
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+id: block_content.field_add_a_project
+field_name: field_add_a_project
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,28 @@
+uuid: 0a16aa60-88df-4774-ae15-8e950a0edf75
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.user_login
+    - field.storage.block_content.field_create_new_account
+  module:
+    - link
+id: block_content.user_login.field_create_new_account
+field_name: field_create_new_account
+entity_type: block_content
+bundle: user_login
+label: 'Create new account'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:/user/register'
+    title: 'Create new account'
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

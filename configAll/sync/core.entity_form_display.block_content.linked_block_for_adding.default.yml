@@ -1,0 +1,58 @@
+uuid: e298f977-75c3-4d8c-a1ed-aa5c28d5ef68
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.linked_block_for_adding
+    - field.field.block_content.linked_block_for_adding.field_add_a_blog
+    - field.field.block_content.linked_block_for_adding.field_add_a_project
+    - field.field.block_content.linked_block_for_adding.field_add_a_skill
+    - field.field.block_content.linked_block_for_adding.field_add_an_employee
+  module:
+    - link
+id: block_content.linked_block_for_adding.default
+targetEntityType: block_content
+bundle: linked_block_for_adding
+mode: default
+content:
+  field_add_a_blog:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_add_a_project:
+    type: link_default
+    weight: 4
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_add_a_skill:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_add_an_employee:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

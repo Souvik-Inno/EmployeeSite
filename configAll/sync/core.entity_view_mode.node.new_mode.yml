@@ -1,0 +1,10 @@
+uuid: 8092d5ff-1902-4abe-927b-39d3432f3034
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.new_mode
+label: 'new mode'
+targetEntityType: node
+cache: true

@@ -1,0 +1,30 @@
+uuid: caf6a25a-247f-4c6b-b386-5d367312481e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.project_for_tabs.body
+    - node.type.project_for_tabs
+  module:
+    - text
+    - user
+id: node.project_for_tabs.teaser
+targetEntityType: node
+bundle: project_for_tabs
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

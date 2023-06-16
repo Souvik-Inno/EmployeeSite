@@ -1,0 +1,32 @@
+uuid: 90bc6451-a6d3-4b6e-b0a1-1fb3559d3c70
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.user_login
+    - field.storage.block_content.field_login_form
+    - webform.webform.login_form
+  module:
+    - webform
+id: block_content.user_login.field_login_form
+field_name: field_login_form
+entity_type: block_content
+bundle: user_login
+label: 'Login form'
+description: 'Form for entering login credentials.'
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 3fee984f-1604-4085-a3ad-6a5f3306e049
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

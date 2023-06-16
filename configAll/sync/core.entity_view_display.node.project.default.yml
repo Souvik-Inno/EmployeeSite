@@ -1,0 +1,59 @@
+uuid: 4a4dbe6f-a7bc-4925-84c5-0968d418d23b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.project.body
+    - field.field.node.project.field_customer_name
+    - field.field.node.project.field_employee_assigned
+    - field.field.node.project.field_project_name
+    - field.field.node.project.field_start_date
+    - node.type.project
+  module:
+    - datetime
+    - user
+id: node.project.default
+targetEntityType: node
+bundle: project
+mode: default
+content:
+  field_customer_name:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_employee_assigned:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_project_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_start_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true

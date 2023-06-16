@@ -1,0 +1,28 @@
+uuid: 022a8702-98b6-4dea-961d-4622d6625ad8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.linked_block_for_adding
+    - field.storage.block_content.field_add_a_project
+  module:
+    - link
+id: block_content.linked_block_for_adding.field_add_a_project
+field_name: field_add_a_project
+entity_type: block_content
+bundle: linked_block_for_adding
+label: 'Add a Project'
+description: 'Goes to the add project page.'
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:/node/add/project'
+    title: 'Add a Project'
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

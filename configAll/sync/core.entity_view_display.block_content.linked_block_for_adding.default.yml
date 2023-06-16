@@ -1,0 +1,66 @@
+uuid: 7f850e28-be54-40ed-bc77-e676d45ca3fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.linked_block_for_adding
+    - field.field.block_content.linked_block_for_adding.field_add_a_blog
+    - field.field.block_content.linked_block_for_adding.field_add_a_project
+    - field.field.block_content.linked_block_for_adding.field_add_a_skill
+    - field.field.block_content.linked_block_for_adding.field_add_an_employee
+  module:
+    - link
+id: block_content.linked_block_for_adding.default
+targetEntityType: block_content
+bundle: linked_block_for_adding
+mode: default
+content:
+  field_add_a_blog:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_add_a_project:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_add_a_skill:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_add_an_employee:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

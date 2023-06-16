@@ -1,0 +1,8 @@
+uuid: 03d5a0eb-1790-49c2-8108-0be62e41a726
+langcode: en
+status: true
+dependencies: {  }
+id: user_login
+label: 'User Login'
+revision: 0
+description: 'Login block for entering login credentials.'

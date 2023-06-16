@@ -1,0 +1,53 @@
+uuid: a7004c62-e115-49fa-81e2-4c45407400c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.blog_comment
+    - field.field.comment.blog_comment.comment_body
+    - field.field.comment.blog_comment.field_email_
+    - field.field.comment.blog_comment.field_homepage_
+    - field.field.comment.blog_comment.field_your_name_
+  module:
+    - text
+id: comment.blog_comment.default
+targetEntityType: comment
+bundle: blog_comment
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_email_:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_homepage_:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_your_name_:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }
