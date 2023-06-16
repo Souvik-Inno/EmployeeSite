@@ -1,0 +1,18 @@
+uuid: 21ea4dd8-6558-4410-9923-8e37d87b6290
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Project
+type: project
+description: 'Project which has a team working on it.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

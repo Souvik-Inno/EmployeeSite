@@ -1,0 +1,10 @@
+uuid: 381aa92a-b1b5-4602-956d-a341bd5a91c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.full_user_view
+label: 'Full User view'
+targetEntityType: user
+cache: true

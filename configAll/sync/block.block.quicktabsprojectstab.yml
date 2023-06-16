@@ -1,0 +1,24 @@
+uuid: c10361c4-1a27-4f7e-bac2-25a480e42af2
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap
+id: quicktabsprojectstab
+theme: bootstrap
+region: content
+weight: -8
+provider: null
+plugin: 'quicktabs_block:projects_tab'
+settings:
+  id: 'quicktabs_block:projects_tab'
+  label: 'Recent Projects'
+  label_display: visible
+  provider: quicktabs
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

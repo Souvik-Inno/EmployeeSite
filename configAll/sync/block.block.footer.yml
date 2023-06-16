@@ -1,0 +1,25 @@
+uuid: 77551b2b-9e9a-4c3c-a92e-18611df67793
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:footer_block:1af27753-bf3f-4134-a6c2-d35832ec8d8d'
+  module:
+    - block_content
+  theme:
+    - bootstrap
+id: footer
+theme: bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:1af27753-bf3f-4134-a6c2-d35832ec8d8d'
+settings:
+  id: 'block_content:1af27753-bf3f-4134-a6c2-d35832ec8d8d'
+  label: Footer
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

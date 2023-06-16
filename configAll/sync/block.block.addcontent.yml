@@ -1,0 +1,25 @@
+uuid: 6ba22e2c-d9df-40a2-9d8e-5c6de8265f3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.add-content
+  module:
+    - system
+  theme:
+    - bootstrap
+id: addcontent
+theme: bootstrap
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:add-content'
+settings:
+  id: 'system_menu_block:add-content'
+  label: 'Add content'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

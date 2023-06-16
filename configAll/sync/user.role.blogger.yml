@@ -1,0 +1,23 @@
+uuid: 83a233bb-4d74-4485-b654-6350ec668c11
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.blog
+  module:
+    - comment
+    - filter
+    - node
+id: blogger
+label: Blogger
+weight: 4
+is_admin: null
+permissions:
+  - 'create blog content'
+  - 'delete own blog content'
+  - 'edit own blog content'
+  - 'edit own comments'
+  - 'use text format full_html'
+  - 'use text format restricted_html'

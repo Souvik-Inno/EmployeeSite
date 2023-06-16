@@ -1,0 +1,30 @@
+uuid: b6299995-27d6-4974-bfb2-8b10e9b4c503
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blogs_per_user
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__blogs_per_user_block_1
+theme: bootstrap
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:blogs_per_user-block_1'
+settings:
+  id: 'views_block:blogs_per_user-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/employees/*'

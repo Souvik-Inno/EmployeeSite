@@ -1,0 +1,8 @@
+uuid: 771eb282-0cc2-48c2-879e-3d6c60dd036e
+langcode: en
+status: true
+dependencies: {  }
+name: Skill
+vid: skill
+description: 'For skills adding.'
+weight: 0

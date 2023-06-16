@@ -1,0 +1,23 @@
+uuid: 1235b6fd-fc7d-4dea-87b0-1a34deaba268
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.new_test_block
+    - field.storage.block_content.field_add_a_block
+  module:
+    - link
+id: block_content.new_test_block.field_add_a_block
+field_name: field_add_a_block
+entity_type: block_content
+bundle: new_test_block
+label: 'Add a Block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

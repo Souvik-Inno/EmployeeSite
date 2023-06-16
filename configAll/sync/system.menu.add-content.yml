@@ -1,0 +1,8 @@
+uuid: 8caf9cf2-c16b-4ed7-b1a2-c6177063dbf7
+langcode: en
+status: true
+dependencies: {  }
+id: add-content
+label: 'Add content'
+description: ''
+locked: false

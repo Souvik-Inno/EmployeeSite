@@ -1,0 +1,23 @@
+uuid: f60afcb6-36e1-4494-bee2-b9f80fd88e9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.new_test_block
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.new_test_block.body
+field_name: body
+entity_type: block_content
+bundle: new_test_block
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,25 @@
+uuid: 2ae70d07-28e8-4579-af90-34b6184f31fe
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:user_login:d18d9016-dc3b-4592-9e2f-bc8dcb1000c9'
+  module:
+    - block_content
+  theme:
+    - bootstrap
+id: userlogin
+theme: bootstrap
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:d18d9016-dc3b-4592-9e2f-bc8dcb1000c9'
+settings:
+  id: 'block_content:d18d9016-dc3b-4592-9e2f-bc8dcb1000c9'
+  label: 'User Login'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

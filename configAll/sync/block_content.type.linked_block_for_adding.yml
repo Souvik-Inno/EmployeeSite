@@ -1,0 +1,8 @@
+uuid: 7ea39f6f-2b49-431a-86cd-1308492ebdcb
+langcode: en
+status: true
+dependencies: {  }
+id: linked_block_for_adding
+label: 'Linked block for adding'
+revision: 0
+description: 'Block only for HR and admin for adding content.'

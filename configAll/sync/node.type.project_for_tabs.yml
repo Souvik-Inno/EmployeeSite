@@ -1,0 +1,18 @@
+uuid: aec876d4-a5e0-4748-b67f-1a935d5526e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Project for tabs'
+type: project_for_tabs
+description: 'To show the content in tabs'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

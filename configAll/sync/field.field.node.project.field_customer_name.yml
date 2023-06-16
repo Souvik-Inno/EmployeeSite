@@ -1,0 +1,21 @@
+uuid: 3aad089a-05a2-4579-afce-c0551ae3af17
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_customer_name
+    - node.type.project
+id: node.project.field_customer_name
+field_name: field_customer_name
+entity_type: node
+bundle: project
+label: 'Customer Name'
+description: 'Customer Name of the project.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Innoraft Solutions Pvt. Ltd.'
+default_value_callback: ''
+settings: {  }
+field_type: string

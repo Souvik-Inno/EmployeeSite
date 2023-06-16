@@ -1,0 +1,28 @@
+uuid: bf0f88bc-416c-48d4-8a2f-2917a0450ebc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.linked_block_for_adding
+    - field.storage.block_content.field_add_a_blog
+  module:
+    - link
+id: block_content.linked_block_for_adding.field_add_a_blog
+field_name: field_add_a_blog
+entity_type: block_content
+bundle: linked_block_for_adding
+label: 'Add a Blog'
+description: 'Goes to adding blog page.'
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:/node/add/blog'
+    title: 'Add a blog'
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link
